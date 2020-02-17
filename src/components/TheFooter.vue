@@ -1,16 +1,17 @@
 <template>
-    <header class="header">
-        <div class="logo">
-            LOGO
-        </div>
-    </header>
+    <footer class="footer">
+    </footer>
 </template>
 
+<script>
+export default {
+    name: 'TheFooter',
+};
+</script>
+
 <style>
-.logo {
-    background-color: #ffd609;
-    color: #fff;
-    font-size: 30px;
-    padding: 5px 10px;
+.footer {
+    height: 100px;
+    background-color: #ffaacd;
 }
 </style>

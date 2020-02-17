@@ -22,6 +22,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "assets": "^3.0.1",
+        "normalize.css": "^8.0.1",
         "parcel-bundler": "^1.12.4",
         "vue": "^2.6.10",
         "vue-hot-reload-api": "^2.3.4",
@@ -30,7 +32,7 @@
     },
     "main": "./src/app.js",
     "scripts": {
-        "build": "parcel build index.html --no-source-maps --no-content-hash --no-cache --out-dir ./build/",
+        "build": "parcel build ./public/index.html --no-source-maps --no-content-hash --no-cache --out-dir ./build/",
         "serve": "parcel ./public/index.html"
     },
     "author": "KorbenKot",
